@@ -6,7 +6,7 @@
 %global sum Multi-vendor library to simplify Paramiko SSH connections to network devices
 
 Name:           python-%{srcname}
-Version:        1.4.1
+Version:        1.4.2
 Release:        1%{?dist}
 Summary:        %{sum}
 
@@ -89,5 +89,8 @@ Requires:       python3-PyYAML
 
 
 %changelog
+* Mon Jul 24 2017 Dmitry Tantsur <divius.inside@gmail.com> - 1.4.2-1
+- Update to 1.4.2
+
 * Mon Jul 24 2017 Dmitry Tantsur <divius.inside@gmail.com> - 1.4.1-1
 - Initial packaging (#1465006)
