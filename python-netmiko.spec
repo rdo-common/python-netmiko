@@ -7,7 +7,7 @@
 
 Name:           python-%{srcname}
 Version:        1.4.2
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        %{sum}
 
 License:        MIT
@@ -89,6 +89,9 @@ Requires:       python3-PyYAML
 
 
 %changelog
+* Thu Jul 27 2017 Fedora Release Engineering <releng@fedoraproject.org> - 1.4.2-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_27_Mass_Rebuild
+
 * Mon Jul 24 2017 Dmitry Tantsur <divius.inside@gmail.com> - 1.4.2-1
 - Update to 1.4.2
 
