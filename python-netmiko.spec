@@ -6,8 +6,8 @@
 %global sum Multi-vendor library to simplify Paramiko SSH connections to network devices
 
 Name:           python-%{srcname}
-Version:        1.4.2
-Release:        2%{?dist}
+Version:        1.4.3
+Release:        1%{?dist}
 Summary:        %{sum}
 
 License:        MIT
@@ -89,6 +89,9 @@ Requires:       python3-PyYAML
 
 
 %changelog
+* Thu Jan 4 2018 Dmitry Tantsur <divius.inside@gmail.com> - 1.4.3-1
+- Update to 1.4.3
+
 * Thu Jul 27 2017 Fedora Release Engineering <releng@fedoraproject.org> - 1.4.2-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_27_Mass_Rebuild
 
