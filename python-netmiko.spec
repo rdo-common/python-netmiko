@@ -23,6 +23,7 @@ BuildArch:      noarch
 %package -n python2-%{srcname}
 Summary:        %{sum}
 BuildRequires:  python2-devel
+BuildRequires:  python-setuptools
 Requires:       python2-paramiko >= 2.0.0
 Requires:       python2-scp >= 0.10.0
 Requires:       PyYAML
